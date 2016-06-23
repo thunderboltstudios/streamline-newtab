@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "Streamline New Tab",
+	"version": "1.0",
+	"description": "A handy new tab page with many useful features.",
+	"icons": {
+		"16": "img/16.png",
+		"32": "img/32.png",
+		"48": "img/48.png",
+		"128": "img/128.png"
+	},
+	"chrome_url_overrides": {
+		"newtab": "newtab.html"
+	},
+	"homepage_url": "http://thunderboltstudios.github.io/streamline",
+	"author": "Thunderbolt Studios",
+	"offline_enabled": true,
+	"options_page": "options.html",
+	"permissions": ["storage"],
+	"short_name": "SNT",
+	"update_url": "http://thunderboltstudios.github.io/streamline/updateInfo.xml",
+	"web_accessible_resources": [
+		"img/*",
+		"mdl/*"
+	]
+}
